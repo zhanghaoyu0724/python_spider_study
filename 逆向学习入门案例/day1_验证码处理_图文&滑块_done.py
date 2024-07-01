@@ -58,9 +58,7 @@ session = HTMLSession()
 #         :return:
 #         """
 #         headers ={
-#             'AppCode' :    '***',
-#             'AppKey':    '**',
-#             'AppSecret':'**'
+#
 #         }
 #         with open('验证码.png','rb') as f:
 #             img_data = f.read()
