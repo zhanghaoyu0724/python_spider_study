@@ -3,6 +3,7 @@ from multiprocessing import Pool
 import requests
 
 
+
 def scrape(url):
     try:
         print(requests.get(url))
